@@ -134,3 +134,13 @@ img {
         width: auto;
     }
  }
+
+ @media screen and (max-width:480px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .lessons .col, .steps .col, .col, .why-us .col-left, .why-us .col-right{
+        width: 100%;
+    }
+ }
